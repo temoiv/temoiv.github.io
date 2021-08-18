@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <title>temoiv</title>
+
+  <!-- Marx CSS -->
+<link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
+</head>
+
+<body>
+  <!-- main is the container -->
+      <!-- Navigation -->
+  <main>
+    	<nav>
+      <ul>
+        <li><a href="index.html"><b>Главная</b></a></li>
+        <li><a href="article.html">Статьи</a></li>
+        <li><a href="uc.html">U&C</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <!-- article -->
+    <article>
+      <h1>Просто сайт</h1>
+    </article>
+
+    <!-- aside -->
+    <aside>
+      <h2>Aside</h2>
+      <p>Пока сайт в разработке. Увы :(</p>
+    </aside>
+
+     <div class="grpelem shared_content" id="u1412" data-content-guid="u1412_content"><!-- custom html -->
+<style>
+#rap{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+</style>
+
+<div id="rap"><img src="http://keygen-fm.ru/new/assets/rap.png"></div>
+
+<script type="text/javascript">
+$(function(){
+    $("#rap").on({
+        mouseover:function(){
+            $(this).css({
+                left:(Math.random()*300)+"px",
+                top:(Math.random()*400)+"px",
+            });
+        }
+    });
+});
+
+</script>
+     </div>
+
+
+    <!-- footer -->
+    <footer>
+      <p>&copy; temoiv 2021</p>
+      <a href="https://ho.ua/">Бесплатный хостинг</a>
+    </footer>
+  </main>
+
+</body>
+</html>
